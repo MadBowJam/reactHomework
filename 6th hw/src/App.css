@@ -1,0 +1,32 @@
+
+.app{
+    display: grid;
+    height: 100vh;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.btn {
+    color:black;
+    margin: 10px auto;
+}
+
+.note_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.note_input{
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
+
+.switch {
+    cursor: pointer;
+}
